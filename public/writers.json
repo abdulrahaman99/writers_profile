@@ -1,51 +1,39 @@
-[
-    {
-        "id": 1,
-        "name":"Audre Lorde",
-        "avatar":"audre_lorde",
-        "email":"audrelorde@gmail.com",
-        "phone": "1-773-454-3645",
-        "bio": "she is a bloger for the year ended 2022"
-    },
-    {
-        "id": 1,
-        "name":"Audre Lorde",
-        "avatar":"audre_lorde",
-        "email":"audrelorde@gmail.com",
-        "phone": "1-773-454-3645",
-        "bio": "she is a bloger for the year ended 2022"
-    },
-    {
-        "id": 1,
-        "name":"Audre Lorde",
-        "avatar":"audre_lorde",
-        "email":"audrelorde@gmail.com",
-        "phone": "1-773-454-3645",
-        "bio": "she is a bloger for the year ended 2022"
-    },
-    {
-        "id": 1,
-        "name":"Audre Lorde",
-        "avatar":"audre_lorde",
-        "email":"audrelorde@gmail.com",
-        "phone": "1-773-454-3645",
-        "bio": "she is a bloger for the year ended 2022"
-    },
-    {
-        "id": 1,
-        "name":"Audre Lorde",
-        "avatar":"audre_lorde",
-        "email":"audrelorde@gmail.com",
-        "phone": "1-773-454-3645",
-        "bio": "she is a bloger for the year ended 2022"
-    },
-    {
-        "id": 1,
-        "name":"Audre Lorde",
-        "avatar":"audre_lorde",
-        "email":"audrelorde@gmail.com",
-        "phone": "1-773-454-3645",
-        "bio": "she is a bloger for the year ended 2022"
-    }
-    
-    ]
+ [
+  {
+    "id": 1,
+    "name": "Audre Lorde",
+    "avatar": "audre_lorde",
+    "email": "abdulrahman@gmail.com",
+    "phone": "02469845225"
+  },
+  {
+    "id": 1,
+    "name": "Audre Lorde",
+    "avatar": "audre_lorde",
+    "email": "abdulrahman@gmail.com",
+    "phone": "02469845225"
+  },
+  {
+    "id": 1,
+    "name": "Audre Lorde",
+    "avatar": "audre_lorde",
+    "email": "abdulrahman@gmail.com",
+    "phone": "02469845225"
+  },
+  {
+    "id": 1,
+    "name": "Audre Lorde",
+    "avatar": "audre_lorde",
+    "email": "abdulrahman@gmail.com",
+    "phone": "02469845225"
+  },
+  {
+    "id": 1,
+    "name": "Audre Lorde",
+    "avatar": "audre_lorde",
+    "email": "abdulrahman@gmail.com",
+    "phone": "02469845225"
+  }
+]
+
+

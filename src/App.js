@@ -10,7 +10,6 @@ class App extends Component {
 
     this.state = {
       writers: {
-        loading: false,
         list: [],
       },
     };
@@ -29,11 +28,12 @@ class App extends Component {
       this.setState({
         writers: {
           loading: false,
-          list: result,
-        },
+          list: result
+        }
       });
     }, 3500);
   }
+
   render() {
     const {
       writers: { loading, list },
@@ -42,10 +42,10 @@ class App extends Component {
     if (loading) {
       return (
         <div>
-          <h1>Writers Profile</h1>
+          <h1> Writers Profile</h1>
           <div className="container">
             <div className="card action">
-              <p className="infoText">Loading...</p>
+              <p className="infoText">Loading ...</p>
             </div>
           </div>
         </div>
@@ -54,18 +54,21 @@ class App extends Component {
 
     return (
       <div>
-        <h1>Writers Profiles</h1>
+        <h1>Writers Profile</h1>
         <div className="container">
           {list.length === 0 ? (
             <div className="card action">
               <p className="infoText">Oops...no writer profile found</p>
-              <button className="actionBtn">Get Writers</button>
+              <button className="actionBtn" onClick={this.handleClick}>
+                Get Writers
+              </button>
             </div>
           ) : (
             list.map((writer) => (
               <ProfileCard key={writer.id} writer={writer} />
             ))
           )}
+          
         </div>
       </div>
     );
